@@ -5,6 +5,7 @@
         margin: 0;
         padding: 0;
         font-weight: 500;
+        font-family: 'Inter', sans-serif;
     }
 
     a{
@@ -153,6 +154,187 @@
         color: #667085;
         line-height: 24px;
     }
+
+    .divulgar {
+        margin-top: 12vh;
+        text-align: center;
+    }
+
+    .divulgar > p,h2,h3 {
+        font-family: 'Inter',sans-serif;
+        margin-bottom: 20px;
+    }
+
+    .divulgar > h2 {
+        font-weight: bold;
+        font-size: 36px;
+    }
+
+    .divulgar > h3 {
+        color: #667085;
+        font-size: 23px;
+        margin-bottom: 7vh;
+    }
+
+    .divulgar > img {
+        width: 79vw;
+
+    }
+
+    .vagasAbertas {
+        font-weight: bold;
+        font-size: 14px;
+        color: #8E2424;
+        border-radius: 16px;
+        padding: 4px 12px;
+        margin: auto;
+        width: fit-content;
+        background-color: rgba(142, 36, 36, 0.05);
+    }
+
+    .tiposVagas {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        margin-top: 64px;
+    }
+
+    .design, .softwareDev{
+        margin-left: 23.8vw;
+    }
+
+    .softwareDev > h3 {
+        font-weight: bold;
+        margin-bottom: 4vh;
+    }
+
+    .design > h3 {
+        font-weight: bold;
+        margin-bottom: 4vh;
+    }
+
+
+    .subVagas {
+        width: 50vw;
+        border: 1px solid #EAECF0;
+        border-radius: 16px;
+        padding: 24px 24px 28px;
+        margin-bottom: 3.2vh;
+    }
+
+    .subVagas > h3 {
+        font-weight: bold;
+    }
+
+    .info {
+        margin-top: 8vh;
+        display: flex;
+        
+    }
+    .info > p {
+        margin-right: 24px;
+        color: #667085;
+    }
+
+    .autor {
+        background-color: rgba(196, 25, 25, 0.03);
+        padding: 5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 79vw;
+        margin: auto;
+        margin-top: 8vh;
+    }
+    .mini-text {
+        color: #8E2424;
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 3vh;
+    }
+
+    .autor > h2 {
+        width: 71vw;
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+    .autor > img {
+        margin-top: 2vh;
+        margin-bottom: 3vh;
+    }
+
+    .nomeAutor {
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 2vh;
+    }
+
+    .footer {
+        width: 100vw;
+        background-color: #F9FAFB;
+        padding: 96px 0px;
+        margin-top: 96px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer > p {
+        margin-top: 6vh;
+    }
+
+    .footer > h1 {
+        font-weight: bold;
+        font-size: 36px;
+    }
+
+    .footer > h3 {
+        margin-top: 26px;
+        font-size: 20px;
+        color: #667085;
+        font-weight: 500;
+    }
+
+
+    .form {
+        display: flex;
+        margin: auto;
+        margin-top: 42px;
+        width: fit-content;
+        align-items: center;
+    }
+
+    .form > input {
+        height: 20px;
+        width: 360px;
+        padding: 12px 14px 12px 16px;
+        border-radius: 8px;
+        border: 1px solid #D0D5DD;
+        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+        color: #667085;
+    }
+
+    .cadastro-input {
+        padding: 0.1vw;
+        margin-left: 1vw;
+        background-color: #8E2424;
+        width: 112px;
+        height:44px;
+        border-radius: 8px;
+        text-align: center;
+        
+    }
+
+    .cadastro-input > p {
+        margin: 12px 18px 10px 18px;
+        color: white;
+    }
+
+    .direitos {
+        font-size: 16px;
+        color: #98A2B3;
+    }
+    
 }
 
 
@@ -163,6 +345,7 @@
         margin: 0;
         padding: 0;
         font-weight: 500;
+        font-family: 'Inter',sans-serif;
     }
 
     a{
@@ -271,7 +454,7 @@
         margin: auto;
         font-family: 'Inter', sans-serif;
         font-size: 20px;
-        width: 51vw;
+        width: 65vw;
         
     }
 
@@ -292,7 +475,7 @@
     }
 
     .subDados > h1 {
-        font-size: 9vw;
+        font-size: 7vw;
         font-family: 'Inter', sans-serif;
         color: #8E2424;
         font-weight: 600;
@@ -303,15 +486,197 @@
         font-family: 'Inter', sans-serif;
         font-weight: 550;
         margin-bottom: 0.7vh;
-        font-size: 3vw;
+        font-size: 2vw;
     }
 
     .subDados > p {
         font-family: 'Inter', sans-serif;
         width: 18vw;
-        font-size: 3vw;
+        font-size: 2.5vw;
         color: #667085;
         line-height: 4.5vw;
         
     }
+    .divulgar {
+        margin-top: 12vh;
+        text-align: center;
+    }
+
+    .divulgar > img {
+        width: 79vw;
+
+    }
+
+    .divulgar > p,h2,h3 {
+        font-family: 'Inter',sans-serif;
+        margin-bottom: 20px;
+    }
+
+    .divulgar > h2 {
+        font-weight: bold;
+        font-size: 36px;
+    }
+
+    .divulgar > h3 {
+        color: #667085;
+        font-size: 23px;
+        margin-bottom: 7vh;
+    }
+
+    .vagasAbertas {
+        font-weight: bold;
+        font-size: 14px;
+        color: #8E2424;
+        border-radius: 16px;
+        padding: 4px 12px;
+        margin: auto;
+        width: fit-content;
+        background-color: rgba(142, 36, 36, 0.05);
+    }
+    .tiposVagas {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        margin-top: 64px;
+    }
+
+    .design, .softwareDev{
+        margin-left: 20.8vw;
+    }
+
+    .softwareDev > h3 {
+        font-weight: bold;
+        margin-bottom: 4vh;
+    }
+
+    .design > h3 {
+        font-weight: bold;
+        margin-bottom: 4vh;
+    }
+
+    .subVagas {
+        width: 50vw;
+        border: 1px solid #EAECF0;
+        border-radius: 16px;
+        padding: 24px 24px 28px;
+        margin-bottom: 3.2vh;
+    }
+
+    .subVagas > h3 {
+        font-weight: bold;
+    }
+
+    .info {
+        margin-top: 8vh;
+        display: flex;
+    }
+    .info > p {
+        margin-right: 24px;
+        color: #667085;
+    }
+
+    .autor {
+        background-color: rgba(196, 25, 25, 0.03);
+        padding: 5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 79vw;
+        margin: auto;
+        margin-top: 8vh;
+    }
+
+    .autor > p {
+        font-family: 'Inter' ,sans-serif;
+    }
+    .mini-text {
+        color: #8E2424;
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 3vh;
+    }
+
+    .autor > h2 {
+        width: 71vw;
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+    .autor > img {
+        margin-top: 2vh;
+        margin-bottom: 3vh;
+    }
+
+    .nomeAutor {
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    .footer {
+        width: 100vw;
+        background-color: #F9FAFB;
+        padding: 96px 0px;
+        margin-top: 96px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer > p {
+        margin-top: 6vh;
+    }
+
+    .footer > h1 {
+        font-weight: bold;
+        font-size: 36px;
+    }
+
+    .footer > h3 {
+        margin-top: 26px;
+        font-size: 20px;
+        color: #667085;
+        font-weight: 500;
+    }
+
+
+    .form {
+        display: flex;
+        margin: auto;
+        margin-top: 42px;
+        width: fit-content;
+        align-items: center;
+    }
+
+    .form > input {
+        height: 20px;
+        width: 55vw;
+        padding: 12px 14px 12px 16px;
+        border-radius: 8px;
+        border: 1px solid #D0D5DD;
+        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+        color: #667085;
+    }
+
+    .cadastro-input {
+        padding: 0.1vw;
+        margin-left: 1vw;
+        background-color: #8E2424;
+        width: 112px;
+        height:44px;
+        border-radius: 8px;
+        text-align: center;
+        
+    }
+
+    .cadastro-input > p {
+        margin: 12px 18px 10px 18px;
+        color: white;
+    }
+
+    .direitos {
+        font-size: 16px;
+        color: #98A2B3;
+    }
+    
 }
